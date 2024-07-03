@@ -4,8 +4,4 @@ Id,Name,language,Expertise
 3,David Johnson,English,"['AI', 'Data Analysis']"
 4,Emily Brown,English,"['Mobile Development', 'Computer Science']"
 5,Michael Clark,English,"['Web Development', 'Computer Science']"
-6,Ahmed Mohammed,Arabic,"['Programming Languages', 'Data Analysis']"
-7,Kevin Lee,English,"['AI', 'Web Development']"
-8,Mohammed Ibrahim,Arabic,"['Mobile Development', 'Programming Languages']"
-9,Daniel Taylor,English,"['Web Development', 'Data Analysis']"
-10,Sara Ali,Arabic,['Embedded Systems']
+

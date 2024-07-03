@@ -26,8 +26,9 @@ def recommend(course_data: dict = Body(...)):
   # Get the course indices
   course_indices = [i[0] for i in sim_scores]
 
-  # Return the top 10 most similar courses
-  return list(df['Title'].iloc[course_indices].values)
+  recommendations = df.iloc[course_indices][['CourseID', 'Title']].to_dict(orient='records')
+
+  return recommendations
 
 if __name__ == "__main__":
   import uvicorn
