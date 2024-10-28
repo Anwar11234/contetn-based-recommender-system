@@ -44,9 +44,9 @@ These features provide a rich representation of each course, facilitating the id
 
 The **Term Frequency-Inverse Document Frequency (TF-IDF)** method is used to transform textual data into numerical vectors for similarity calculation. The TF-IDF score for a word `t` in a document `d` is calculated as:
 
-\[
-\text{TF-IDF}(t, d) = \text{TF}(t, d) \times \text{IDF}(t)
-\]
+```
+TF-IDF(t, d) = TF(t, d) * IDF(t)
+```
 
 - **Term Frequency (TF)**: Measures how frequently a word appears in a document.
 - **Inverse Document Frequency (IDF)**: Measures the importance of a word across all documents.
@@ -55,9 +55,9 @@ The **Term Frequency-Inverse Document Frequency (TF-IDF)** method is used to tra
 
 To determine the similarity between courses, **Cosine Similarity** is used, measuring the cosine of the angle between two vectors. The formula for cosine similarity between two vectors `A` and `B` is:
 
-\[
-\text{Cosine Similarity}(A, B) = \frac{A \cdot B}{\|A\|\|B\|}
-\]
+```
+Cosine Similarity(A, B) = A . B / |A||B|
+```
 
 A value of `1` indicates identical courses, while a value of `0` suggests no similarity.
 
